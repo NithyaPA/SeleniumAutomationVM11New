@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite]">
+  <test thread-count="5" verbose="0" name="Testng1(failed)">
+    <classes>
+      <class name="XPathAdvanced.XPath_Adv1">
+        <methods>
+          <include name="closeApp"/>
+          <include name="launchApp"/>
+          <include name="verifySeeMoreTest"/>
+        </methods>
+      </class> <!-- XPathAdvanced.XPath_Adv1 -->
+    </classes>
+  </test> <!-- Testng1(failed) -->
+</suite> <!-- Failed suite [Suite] -->
